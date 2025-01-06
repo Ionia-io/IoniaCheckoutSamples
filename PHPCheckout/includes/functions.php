@@ -49,9 +49,11 @@ function nav_menu($sep = ' | ')
  * URL, it replaces the hyphens with spaces and
  * it capitalizes the words.
  */
+
+
 function page_title()
 {
-    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Home';
+    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Ionia Pay Processor Demo';
 
     echo ucwords(str_replace('-', ' ', $page));
 }

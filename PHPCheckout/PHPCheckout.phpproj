@@ -5,4 +5,10 @@
   <PropertyGroup>
     <EnvName>PHPDev</EnvName>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="content\404.phtml" />
+    <Content Remove="content\about-us.phtml" />
+    <Content Remove="content\contact.phtml" />
+    <Content Remove="content\products.phtml" />
+  </ItemGroup>
 </Project>
