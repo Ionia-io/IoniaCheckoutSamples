@@ -8,14 +8,13 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'Ionia Pay Demo Site',
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [
             '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
+            'about-us' => 'Continuous Post Method',
+            'products' => 'Continuous Querrystring Method',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
