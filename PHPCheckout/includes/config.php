@@ -12,9 +12,9 @@ function config($key = '')
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [
-            '' => 'Home',
-            'about-us' => 'Continuous Post Method',
-            'products' => 'Continuous Querrystring Method',
+            'home' => 'Home',
+            'continuous-post-method' => 'Continuous Post Method',
+            'continuous-querrystring-method' => 'Continuous Querrystring Method',
         ],
         'template_path' => 'template',
         'content_path' => 'content',

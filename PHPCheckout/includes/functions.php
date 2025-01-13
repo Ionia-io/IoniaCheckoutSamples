@@ -13,7 +13,7 @@ function site_name()
  */
 function site_url()
 {
-    echo config('site_url');
+    echo config('');
 }
 
 /**
@@ -21,7 +21,7 @@ function site_url()
  */
 function site_version()
 {
-    echo config('version');
+    echo config('');
 }
 
 /**
@@ -51,7 +51,7 @@ function nav_menu($sep = ' | ')
  */
 function page_title()
 {
-    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Home';
+    $page = isset($_GET['']) ? htmlspecialchars($_GET['']) : '';
 
     echo ucwords(str_replace('-', ' ', $page));
 }
