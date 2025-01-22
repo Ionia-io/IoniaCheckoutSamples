@@ -4,8 +4,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <EnvName>PHPDev</EnvName>
+    <SpecificPageValue>index.phtml</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
-  <ItemGroup>
-    <Content Remove="content\contact.phtml" />
-  </ItemGroup>
 </Project>
