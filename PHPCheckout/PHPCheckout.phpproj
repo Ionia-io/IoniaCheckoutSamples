@@ -4,7 +4,10 @@
   </PropertyGroup>
   <PropertyGroup>
     <EnvName>PHPDev</EnvName>
-    <SpecificPageValue>index.phtml</SpecificPageValue>
+    <SpecificPageValue>home.phtml</SpecificPageValue>
     <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="index.phtml" />
+  </ItemGroup>
 </Project>
